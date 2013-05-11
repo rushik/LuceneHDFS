@@ -11,9 +11,6 @@ JAR Dependencies
 
 Example Files
 
-1) IndexBuilderRAMDir.java
-	- Indexes local documents and export lucene indexes to HDFS 
-2) Search.java
-	- PIG UDF loads lucene indexes (one time) and search thru indexes and return BAG of match documents 
-3) SearchHDFSRamDir.java 
-	- Example search code which loads indexes stored in HDFS and print matched documents 
+- IndexBuilderRAMDir.java : Indexes local documents and export lucene indexes to HDFS 
+- Search.java : PIG UDF loads lucene indexes (one time) and search thru indexes and return BAG of match documents 
+- SearchHDFSRamDir.java : Example search code which loads indexes stored in HDFS and print matched documents 
