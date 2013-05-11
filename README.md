@@ -14,3 +14,5 @@ Example Files
 - IndexBuilderRAMDir.java : Indexes local documents and export lucene indexes to HDFS 
 - Search.java : PIG UDF loads lucene indexes (one time) and search thru indexes and return BAG of match documents 
 - SearchHDFSRamDir.java : Example search code which loads indexes stored in HDFS and print matched documents 
+
+*need to replace HDFS path, local path in above files
